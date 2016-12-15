@@ -1,0 +1,13 @@
+{
+    "name": "hello-world",
+    "description": "hello world for Magento",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Deepak Sharma"
+            ]
+        ]
+    }
+}
