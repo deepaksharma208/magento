@@ -1,13 +1,12 @@
 {
-    "name": "hello-world",
+    "name": "shiprocket/hello-world",
     "description": "hello world for Magento",
     "type": "magento2-module",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Deepak Sharma"
-            ]
-        ]
+	"version": "1.0.0",
+	"autoload": {
+        "files": ["registration.php"],
+		"psr-4": {"shiprocket/hello-world":""
+		}
     }
+    
 }
